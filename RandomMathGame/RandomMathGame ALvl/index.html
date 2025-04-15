@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Random Math Game</title>
+</head>
+<body>
+    <p class="info" id="correct">Correct: 0</p>
+    <p class="info" id="incorrect">Incorrect: 0</p>
+    <p class="info" id="guesses">Guesses: 0</p>
+    <p class="info" id="subnum">Subtraction Questions Right: 0</p>
+    <p class="info" id="addnum">Addition Questions Right: 0</p>
+    <button type="button" class="btns" id="Start" onclick="showDifficulty()">Single Player</button>
+    <button type="button" class="btns" id="Multiplayer" onclick="location.href = 'multiplayer.html'">Multiplayer</button>
+    <br id="br1">
+    <button type="button" class="hidden addOrSub" onclick="AddOrSub('-')" id="sub">Subtraction</button>
+    <button type="button" class="hidden addOrSub" onclick="AddOrSub('+')" id="add">Addition</button>
+    <button type="button" class="hidden addOrSub" onclick="AddOrSub('X')" id="mult">Multiply</button>
+    <button type="button" class="hidden addOrSub" onclick="AddOrSub('X+-')" id="mix">Mixed</button>
+    <br id="br3">
+    <p id="mathQ" class="hidden submit"></p>
+    <br id="br4">
+    <input type="text" id="txtBx" class="hidden submit">
+    <button type="button" id="submit" class="hidden submit" onclick="answer()">Submit</button>
+    <button type="button" id="reset" class="hidden submit" onclick="reset()">Click Here To Play Again</button>
+    <br>
+    <button type="button" id="back" onclick="back()" class="hidden submit">Back To Modes</button>
+    <p id="badges">Badges:</p>
+    <img id="+" class="imgs" src="">
+    <img id="-" class="imgs" src="">
+    <img id="x" class="imgs" src="">
+    <img id="x+-" class="imgs" src="">
+</body>
+</html>

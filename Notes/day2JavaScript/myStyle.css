@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+    font-size: 50px
+}
+p{
+    color: gold;
+}
+
+#first{
+    color: rebeccapurple;
+}
+
+#second{
+    color: green;
+}
+.firstClass{
+    color: chocolate;
+}
+.secondClass{
+    color: deeppink;
+}

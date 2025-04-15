@@ -1,0 +1,17 @@
+.hidden{
+    display: none;
+
+}
+#correct{
+    color: green;
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+}
+#Badges{
+    font-size: 100px;
+    color: green;
+    margin: 0px;
+}
+#imgs{
+    display: inline-block;
+}

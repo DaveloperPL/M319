@@ -1,0 +1,105 @@
+.hidden{
+    display: none;
+
+}
+#correct{
+    color: green;
+    font-size: 100px;
+    font-family: "Comic Sans MS";
+    margin: 0px;
+}
+#Badges{
+    font-size: 100px;
+    color: green;
+    margin: 0px;
+}
+#imgs{
+    display: inline-block;
+    text-align: center;
+}
+#p{
+    text-align: center;
+}
+.btns{
+    font-size: 100px;
+    width: 49.89%;
+    height: 400px;
+}
+.info{
+    font-size: 40px;
+    text-align: center;
+}
+.addOrSub{
+    font-size: 85px;
+    width: 24.8%;
+    height: 400px;
+}
+#sub:hover{
+    background: red;
+}
+#add:hover{
+    background: greenyellow;
+}
+#mult:hover{
+    background: dodgerblue;
+}
+#mix:hover{
+    background: blueviolet;
+}
+#badges{
+    text-align: center;
+    font-size: 100px;
+}
+.submit{
+    margin: auto;
+    font-size: 60px;
+}
+#back{
+    float: bottom;
+}
+#mathQ{
+    text-align: center;
+}
+.p {
+    text-align: center;
+    font-size: 40px;
+}
+#int1{
+    width: 40%;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+#int2{
+    width: 40%;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+#btn1{
+    width: 18%;
+    height: 100px;
+}
+table{
+    text-align: center;
+    margin: auto;
+    font-size: 100px
+}
+#mathQ{
+    margin: auto;
+    text-align: center;
+    font-size: 100px;
+    color: blue;
+}
+#txtBx{
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 50px;
+}
+#submit{
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+}

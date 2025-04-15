@@ -1,0 +1,25 @@
+Goal:  Create an Apple Drop Game.  Will be used in class to teach HTML5 Canvas.
+Each Skill will be shown in a separate project for notes and easy lookup later
+
+
+Day 1: Create and Size Canvas.  Add the background.
+Skills Needed:
+1.Drawing basic shapes
+2.Drawing Text
+3.Drawing Images
+Corresponding Project: "Canvas - Draw Shapes, Text and Images"
+
+*************************************************************
+Day2: Create a basket that will move left and right
+Skills Needed:
+1.Add pictures to the project
+2.Drawing an image on the screen in the Animate loop
+3.KeyPress - Use Jquery for simplicity
+4.Establish conditions in keypress for movement and boundaries
+
+*************************************************************
+Day 3: Make the basket move smoother and animate the fruit. Use an image object
+to make coding easier.
+1.Animate shapes and images moving around the screen.
+2.Use booleans to decide what movement is allowed to happen
+3.Image objects

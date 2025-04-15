@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Random Math Game</title>
+</head>
+<body>
+    <p id="correct">Correct: 0</p>
+    <p id="incorrect">Incorrect: 0</p>
+    <p id="guesses">Guesses: 0</p>
+    <p id="subnum">Subtraction Questions Right: 0</p>
+    <p id="addnum">Addition Questions Right: 0</p>
+    <button type="button" id="Start" onclick="showDifficulty()">Start</button>
+    <br id="br1">
+    <button type="button" class="hidden" onclick="AddOrSub('-')" id="sub">Subtraction</button>
+    <button type="button" class="hidden" onclick="AddOrSub('+')" id="add">Addition</button>
+    <button type="button" class="hidden" onclick="AddOrSub('X')" id="mult">Multiply</button>
+    <br id="br3">
+    <p id="mathQ" class="hidden"></p>
+    <br id="br4">
+    <input type="text" id="txtBx" class="hidden">
+    <button type="button" id="submit" class="hidden" onclick="answer()">Submit</button>
+    <button type="button" id="reset" class="hidden" onclick="reset()">Click Here To Play Again</button>
+    <button type="button" id="back" onclick="back()" class="hidden">Back To Modes</button>
+    <p>Badges:</p>
+    <img id="+" class="imgs" src="">
+    <img id="-" class="imgs" src="">
+    <img id="x" class="imgs" src="">
+</body>
+</html>

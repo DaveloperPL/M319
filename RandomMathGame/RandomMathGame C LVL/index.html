@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Random Math Game</title>
+</head>
+<body>
+    <button type="button" id="Start" onclick="showDifficulty()">Start</button>
+    <br id="br1">
+    <button type="button" id="easy" class="difficulty hidden" onclick="selectDifficulty(1)">Easy</button>
+    <button type="button" id="medium" class="difficulty hidden" onclick="selectDifficulty(2)">Medium</button>
+    <button type="button" id="hard" class="difficulty hidden" onclick="selectDifficulty(3)">Hard</button>
+    <br id="br2">
+    <button type="button" class="hidden" onclick="AddOrSub('-')" id="sub">Subtraction</button>
+    <button type="button" class="hidden" onclick="AddOrSub('+')" id="add">Addition</button>
+    <br id="br3">
+    <button type="button" id="question" class="hidden" onclick="createQuestion()">Create Question</button>
+    <p id="mathQ" class="hidden"></p>
+    <br id="br4">
+    <input type="text" id="txtBx" class="hidden">
+    <button type="button" id="submit" class="hidden" onclick="answer()">Submit</button>
+    <p id="p1" class="hidden"></p>
+    <button type="button" id="reset" class="hidden" onclick="hide()">Click Here To Play Again</button>
+</body>
+</html>

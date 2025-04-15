@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    you must put the call to the library before the line that links your javascript file!!!!!!!-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+
+
+</head>
+
+
+<!--by putting initialize here it will run this funciton when the screen loads-->
+<body onload="initialize()">
+
+    <canvas id="myCanvas" width="500" height="500"
+            style="border:1px solid #000000;">
+    </canvas>
+    <p id = "num">0</p>
+    <button id = "start" type="button" onclick="startAnimation()">click to start animation</button>
+    <button type="button" onclick="stopAnimation()">click to stop animation</button>
+</body>
+</html>
+
+
